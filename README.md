@@ -1,5 +1,6 @@
 # LuaTutorials
 Welcome to my lua tutorial!
+NOTE: ALL THE SCRIPTS ARE UP IN THE SCRIPTS SECTION.
 I hope you enjoy using these scripts as it took me a long time to make them.
 if you plan on copying/using any of them, please credit me as they took a really long time to script.
 I have also used a bunch of tutorials, and mixed them together with lots of edits and tweaks and placed them here.
