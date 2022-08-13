@@ -1,9 +1,12 @@
---Made by mythicalo. If planning on using, please credit me.
---Thanks!
+--made by mythicalo, please credit if using
 local money = 0
 while(money < 100) do
-io.write('You have ' .. money .. ' in your bank, and need 120$ for rent. Quickly earn money and make sure to not loose your apartment! Anyways, What would you like to do? \n 1.Earn Money \n 2.Rob a bank \n 3.Rob someone \n 4.Go shopping
-elseif what == '2' then
+io.write('You have ' .. money .. ' in your bank, and need 120$ for rent. Quickly earn money and make sure to not loose your apartment! Anyways, What would you like to do? \n 1.Earn Money \n 2.Rob a bank \n 3.Rob someone \n 4.Go shopping')
+  local what = io.read()
+if what == '1' then
+  io.write('Yay!\nYou earned 25 dollars\n')
+  money = money + 25
+  elseif what == '2' then
   io.write('You rob someone!! But they called the police. You collect only 2 dollars!\n')
   money = money + 2
 elseif what == '3' then
@@ -20,4 +23,3 @@ elseif what == '4' then
       money = money - 500
   end
 end
-  
